@@ -11,8 +11,8 @@ import CategoryProduct from '../pages/CategoryProduct'
 import ProductDetails from '../pages/ProductDetails'
 import Cart from '../pages/Cart'
 import SearchProduct from '../pages/SearchProduct'
-import Cancel from '../pages/Cancel'
 import Success from '../pages/Success'
+import Cancel from '../pages/Cancel'
 import OrderPage from '../pages/OrderPage'
 import AllOrder from '../pages/AllOrder'
 
@@ -54,7 +54,7 @@ const router = createBrowserRouter([
                 element : <Success/>
             },
             {
-                path : 'cancel',
+                path : "cancel",
                 element : <Cancel/>
             },
             {

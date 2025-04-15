@@ -1,4 +1,4 @@
-const backendDomin =  process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+const backendDomin = process.env.REACT_APP_BACKEND_URL//"http://localhost:8000"
 
 const SummaryApi = {
     signUP : {
@@ -79,16 +79,17 @@ const SummaryApi = {
     },
     payment : {
         url : `${backendDomin}/api/checkout`,
-        method : 'post'
+        method  : 'post'
     },
-    getorder : {
+    getOrder : {
         url : `${backendDomin}/api/order-list`,
         method : 'get'
     },
     allOrder : {
         url : `${backendDomin}/api/all-order`,
         method : 'get'
-    },
+    }
+    
 }
 
 
