@@ -25,3 +25,6 @@ connectDB().then(()=>{
         console.log("Server is running "+PORT)
     })
 })
+
+// export for vecel deployment
+module.exports = app
